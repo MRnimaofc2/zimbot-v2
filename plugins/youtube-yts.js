@@ -14,7 +14,9 @@ let handler = async (m, { text }) => {
 📌 *${v.channelName}* (${v.url})
 🧑‍🤝‍🧑 _${v.subscriberH} (${v.subscriber}) Subscriber_
 🎥 ${v.videoCount} video
-`.trim()
+
+
+MR NIMA`.trim()
     }
   }).filter(v => v).join('\n\n========================\n\n')
   m.reply(teks)
