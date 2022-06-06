@@ -22,7 +22,7 @@ asDocument: 1
 }
 handler.help = ['mp3', 'a'].map(v => 'yt' + v + ` <url> <without message>`)
 handler.tags = ['downloader']
-handler.command = /^yt(a|mp3)$/i
+handler.command = /^song(a|mp3)$/i
 handler.limit = 1
 
 handler.exp = 0
